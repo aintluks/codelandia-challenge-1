@@ -3,10 +3,9 @@
 O desafio foi feito com HTML5 e CSS3.
 
 #### Aprendizado aquirido:
-[x] - Uso de fontes
-[x] - Uso de ícones svg
-[x] - Váriaveis no css
+- Uso de fontes
+- Uso de ícones svg
+- Váriaveis no css
 
-
-####Preview da página
+#### Preview da página
 <img src="Home.png">
