@@ -31,7 +31,7 @@ header {
 }
 
 .article-head {
-    width: 900px;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     padding: 41px 0;
@@ -70,7 +70,7 @@ nav {
 }
 
 .container {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -122,12 +122,10 @@ nav {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 900px) {
-    .article-head {
-        width: 100%;
-    }
-
-    .container {
-        width: 100%;
+@media screen and (max-width: 920px) {
+    .article-head, .container {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }

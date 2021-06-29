@@ -6,6 +6,7 @@ O desafio foi feito com HTML5 e CSS3.
 - Uso de fontes
 - Uso de ícones svg
 - Váriaveis no css
+- Media query
 
-#### Preview da página
-<img src="Home.png">
+#### Preview da página - Versão Mobile e Desktop
+<img src="Home(Mobile).png"><img src="Home.png">
