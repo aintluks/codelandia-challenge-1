@@ -7,6 +7,7 @@ O desafio foi feito com HTML5 e CSS3.
 - Uso de ícones svg
 - Váriaveis no css
 - Media query
+- Animação
 
 #### Preview da página
 A página pode ser vizualizada tanto em Desktop quanto em Mobile.

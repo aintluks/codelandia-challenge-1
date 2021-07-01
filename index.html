@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./variaveis.css">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="assets/css/variaveis.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Codelândia</title>
 </head>
 
@@ -26,11 +26,12 @@
             <article class="first-article card">
                 <div class="date-icon">
                     <p class="datetime">02 de jul, 2021</p>
-                    <img src="./assets/icon-heart.svg" alt="Icone de coração">
+                    <img src="assets/icons/icon-heart.svg" alt="Icone de coração">
                 </div>
                 <div class="article-info">
-                    <h2>Agora é oficial: o Windows 11 está vindo</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam
+                    <h2 class="article-title">Agora é oficial: o Windows 11 está vindo</h2>
+                    <p class="article-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                        vestibulum auctor est. Nam
                         vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
                 </div>
             </article>
@@ -38,11 +39,12 @@
             <article class="card">
                 <div class="date-icon">
                     <p class="datetime">02 de jul, 2021</p>
-                    <img src="./assets/icon-heart.svg" alt="Icone de coração">
+                    <img src="assets/icons/icon-heart.svg" alt="Icone de coração">
                 </div>
                 <div class="article-info">
-                    <h2>Tim Berners-Lee vai leiloar código-fonte da web</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam
+                    <h2 class="article-title">Tim Berners-Lee vai leiloar código-fonte da web</h2>
+                    <p class="article-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                        vestibulum auctor est. Nam
                         vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent
                         et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus.
                         Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
@@ -52,22 +54,24 @@
             <article class="card">
                 <div class="date-icon">
                     <p class="datetime">02 de jul, 2021</p>
-                    <img src="./assets/icon-heart.svg" alt="Icone de coração">
+                    <img src="assets/icons/icon-heart.svg" alt="Icone de coração">
                 </div>
                 <div class="article-info">
-                    <h2>Tem Firefox novo no pedaço e você vai querer migrar</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est.</p>
+                    <h2 class="article-title">Tem Firefox novo no pedaço e você vai querer migrar</h2>
+                    <p class="article-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                        vestibulum auctor est.</p>
                 </div>
             </article>
 
             <article class="card">
                 <div class="date-icon">
                     <p class="datetime">02 de jul, 2021</p>
-                    <img src="./assets/icon-heart.svg" alt="Icone de coração">
+                    <img src="assets/icons/icon-heart.svg" alt="Icone de coração">
                 </div>
                 <div class="article-info">
-                    <h2>John McAfee, criador do antivírus McAfee, morre</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam
+                    <h2 class="article-title">John McAfee, criador do antivírus McAfee, morre</h2>
+                    <p class="article-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                        vestibulum auctor est. Nam
                         vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent
                         et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus.
                         Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
@@ -76,5 +80,20 @@
         </div>
     </main>
 </body>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '50px',
+        duration: 2000,
+        reset: true
+    });
+
+    ScrollReveal().reveal('.card', { delay: 200 });
+    ScrollReveal().reveal('.date-icon', { delay: 400 });
+    ScrollReveal().reveal('.article-title', { delay: 500 });
+    ScrollReveal().reveal('.article-description', { delay: 600 });
+</script>
 
 </html>
