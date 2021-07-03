@@ -7,4 +7,4 @@ O desafio foi feito com HTML5 e CSS3.
 - Uso de ícones svg
 - Váriaveis no css
 - Media query
-- Animação
+- Animação usando a biblioteca JavaScript ScrollReveal
